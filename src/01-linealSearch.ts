@@ -1,10 +1,12 @@
 // Linear search
 // O(n)
 
-const array = [1, 3, 5, 6, 8, 10, 13, 15, 23]
-const target = 22
+import { data } from "./data"
 
-const linearSearch = (array, target) => {
+const array = data(100000000)
+const target = 99999999
+
+const linearSearch = (array: number[], target: number): boolean => {
 
     for (let i = 0; i < array.length; i++) {
         if (array[i] == target) {
