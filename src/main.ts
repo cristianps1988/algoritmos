@@ -1,5 +1,5 @@
 import './style.css'
-import './04-selectionSort'
+import './07-mergeSort'
 
 const app = document.querySelector<HTMLDivElement>('#app')!
 
