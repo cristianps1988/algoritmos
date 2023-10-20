@@ -1,5 +1,5 @@
 import './style.css'
-import './03-bubbleSort'
+import './04-selectionSort'
 
 const app = document.querySelector<HTMLDivElement>('#app')!
 
